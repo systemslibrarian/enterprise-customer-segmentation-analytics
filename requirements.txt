@@ -1,0 +1,7 @@
+# Python dependencies for Enterprise Customer Segmentation & Analytics
+
+pandas>=1.5.0
+sqlite3-binary>=0.0.1 ; platform_system != "Windows"
+ipywidgets>=8.0.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
