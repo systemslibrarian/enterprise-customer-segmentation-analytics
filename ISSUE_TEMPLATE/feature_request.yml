@@ -1,0 +1,29 @@
+name: 💡 Feature Request
+description: Suggest a new idea for this project
+title: "[FEATURE]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide details below.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Short description of the feature
+      placeholder: e.g., Add dark mode to the dashboard
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Detailed Description
+      description: Explain the feature and why it's useful
+      placeholder: This will improve accessibility for users in low-light environments.
+    validations:
+      required: true
