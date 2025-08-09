@@ -46,5 +46,3 @@ git push origin v1.0.0
 
 ## 🧭 Roadmap
 - **v1.1.0** — Add optional seed data, more annotated visualizations
-- **v1.2.0** — Parameterized dashboard, at-risk VIP helper
-- **v2.0.0** — DB adapters (Postgres/BigQuery), breaking changes
